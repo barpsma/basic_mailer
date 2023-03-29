@@ -1,0 +1,26 @@
+{
+  "name": "basic_mailer",
+  "version": "1.0.0",
+  "description": "basic_mailer in express js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barpsma/basic_mailer.git"
+  },
+  "author": "barpsma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barpsma/basic_mailer/issues"
+  },
+  "homepage": "https://github.com/barpsma/basic_mailer#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}
